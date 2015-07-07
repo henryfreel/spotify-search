@@ -1,0 +1,122 @@
+body {
+	background-color: #121314;
+}
+
+body .container {
+	margin-top: 100px;
+}
+
+.header {
+	color:#D5D6DC;
+	font-weight: lighter;
+}
+
+.search {
+	background-color: #648F00;
+	border: 0px;
+	font-weight: lighter;
+}
+
+.search:hover {
+	background-color: #82BF00;
+}
+
+#track {
+	color: #D5D6DC;
+	background-color: #121314;
+}
+
+#track:focus {   
+  border-color: rgba(130, 191, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(130, 191, 0, 0.6);
+  outline: 0 none;
+}
+
+.panel {
+	background-color: #212225;
+	border: 0px;
+	padding: 0;
+	overflow: hidden;
+	height: 180px;
+}
+
+.panel-body {
+	/*background-color: rgba(255,0,0,0.1);*/
+	/*width: 200px;*/
+	display: inline-block;
+	margin: 0;
+	margin-left: 15px;
+	padding: 0;
+	position: relative;
+	top: 15px;
+	left: 0px;
+}
+
+.image {
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #121314;
+}
+
+.album-cover {
+	height: 180px;
+	width: 180px;
+	margin-top: 0;
+	/*position: relative;*/
+	/*top: 0;*/
+	/*left: 0;*/
+}
+
+.track-title {
+	color: #D5D6DC;
+}
+
+.panel-body h4 {
+	margin: 0;
+	padding: 0;
+	/*padding-top: 15px;*/
+}
+
+.panel-body p {
+	color: #88898C;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	/*padding-top: 10px;*/
+}
+
+.play-button {
+	background-color: #648F00;
+	border: 0px;
+	font-weight: lighter;
+	margin-bottom: -20px;
+	position: relative;
+	top: 30px;
+}
+
+.play-button:hover {
+	background-color: #82BF00;
+}
+
+#no-image-panel {
+	height: 50px;
+	color: black;
+	padding-top: 15px;
+	/*display: none;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
